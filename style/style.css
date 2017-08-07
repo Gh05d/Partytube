@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+.search-bar input {
+  width: 100%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.nav {
+  max-height: 290px;
+  overflow:hidden;
+  overflow-y:scroll
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+  height: 90%;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
